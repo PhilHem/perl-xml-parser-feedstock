@@ -18,13 +18,12 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - make
-    - expat
   host:
     - perl
-    - expat
+    - libexpat
   run:
     - perl
-    - expat
+    - libexpat
 
 test:
   imports:
