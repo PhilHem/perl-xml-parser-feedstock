@@ -20,10 +20,9 @@ requirements:
     - make
   host:
     - perl
-    - libexpat
+    - expat
   run:
     - perl
-    - libexpat
 
 test:
   imports:
